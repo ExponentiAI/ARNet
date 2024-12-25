@@ -1,27 +1,37 @@
-# FG-SBIR
-Towards Self-Supervised FG-SBIR with Unified Sample Feature Alignment and Multi-Scale Token Recycling [**[arXiv]**](https://arxiv.org/pdf/2406.11551)
+# ARNet: Self-Supervised FG-SBIR with Unified Sample Feature Alignment and Multi-Scale Token Recycling
 
-Accepted by AAAI 2025. Thank you for your attention, we will update our latest version soon ~
+Thank you for your attention, you can check our details here: [**[arXiv]**](https://arxiv.org/pdf/2406.11551)
 
-You can train and test with our basic model, which is a straightforward methodology.
+- You can train and test with our basic model, which is a straightforward methodology.
+- We also introduced the Multi-Scale Token Recycling (MSTR) Module for any ViT-based framework to improve model's feature representation ability, which is a plug-and-play module.
+
+If you have any problems, please feel free to leave issues here or contact us. 🤗
 
 ## 1. Introduction
 
 ### 1.1 Framework
 
-Our pre-trained model is available [**EffNet Weights**](https://drive.google.com/drive/folders/1q9ZBhmFUC4NdkF-uRvgiArvxWUVPSo_x).
+An overview of our methodology:
 
-#### 1.1.1 How to keep training? 
+<div align=center><img src="./figs/intra.png" width = 60%></div>
 
 <br>
+
+Here is our method's framework:
+
+<div align=center><img src="./figs/framework.png" width = 60%></div>
+
+<br>
+
+Our pre-trained model is available here: [**ARNet Weights**](https://drive.google.com/drive/folders/1q9ZBhmFUC4NdkF-uRvgiArvxWUVPSo_x).
+
+#### 1.1.1 How to keep training?
 
 <div align=center><img src="./figs/acc.png" width = 60%></div>
 
-<be>
+<br>
 
 #### 1.1.2 Are Discarded Patch Tokens Useless?
-
-<br>
 
 <div align=center><img src="./figs/var.png" width = 50%></div>
 
