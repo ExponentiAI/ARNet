@@ -3,9 +3,9 @@
 Thank you for your attention, you can check our details here: [**[arXiv]**](https://arxiv.org/pdf/2406.11551)
 
 - You can train and test with our basic model, which is a straightforward methodology.
-- We also introduced the Multi-Scale Token Recycling (MSTR) Module for any ViT-based framework to improve model's feature representation ability, which is a plug-and-play module.
+- We also introduced the Multi-Scale Token Recycling (MSTR) Module for any ViT-based framework to improve the model's feature representation ability, which is a plug-and-play module.
 
-If you have any problems, please feel free to leave issues here or contact us. 🤗
+If you have any problem, please feel free to leave issues here or contact us. 🤗
 
 ## 1. Introduction
 
