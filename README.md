@@ -19,7 +19,7 @@ An overview of our methodology:
 
 Here is our method's framework:
 
-<div align=center><img src="./figs/framework.png" width = 60%></div>
+<div align=center><img src="./figs/framework.png" width = 80%></div>
 
 <br>
 
@@ -33,7 +33,7 @@ Our pre-trained model is available here: [**ARNet Weights**](https://drive.googl
 
 #### 1.1.2 Are Discarded Patch Tokens Useless?
 
-<div align=center><img src="./figs/var.png" width = 50%></div>
+<div align=center><img src="./figs/var.png" width = 40%></div>
 
 <br>
 
