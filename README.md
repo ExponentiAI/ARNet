@@ -2,7 +2,7 @@
 
 Thank you for your attention, you can check our details here: [**[arXiv]**](https://arxiv.org/pdf/2406.11551)
 
-- You can train and test with our basic model, which is a straightforward methodology.
+- You can train and test with our basic model, which is in a straightforward methodology.
 - We also introduced the Multi-Scale Token Recycling (MSTR) Module for any ViT-based framework to improve the model's feature representation ability, which is a plug-and-play module.
 
 If you have any problem, please feel free to leave issues here or contact us. ðŸ¤—
@@ -10,6 +10,8 @@ If you have any problem, please feel free to leave issues here or contact us. ðŸ
 ## 1. Introduction
 
 ### 1.1 Framework
+
+We achieve better feature representations and retrieval results by **optimizing** feature distributions for both intra- and inter-samples, and **recycling** discarded patch tokens in ViTs (which may contain potential useful information).
 
 An overview of our methodology:
 
@@ -37,7 +39,7 @@ Our pre-trained model is available here: [**ARNet Weights**](https://drive.googl
 
 <br>
 
-### 1.2 Clothes-V1
+### 1.2 HNU-Clothes-V1
 
 <div align=center><img src="./figs/dataset.png" width = 80%></div>
 
@@ -49,7 +51,7 @@ The dataset consists of 1200 sketches and 500 corresponding images, which were s
 
 The sketches were drawn by four professional designers and three junior designers, and the sketches are named using the format **xxxxx_0x.png**, where **xxxxx.png** denotes the corresponding image, and **_0x** denotes the designer (e.g., sketch **00066_01.png** and **00066_06.png** correspond to image **00066.png** and were drawn by designers **01** and **06**, respectively). 
 
-For more details, you can download the [**Clothes-V1**](https://drive.google.com/drive/folders/1630UOV7AFPd2BwjgmZHz8igFAZ68mvnR).
+For more details, you can download the [**HNU-Clothes-V1**](https://drive.google.com/drive/folders/1630UOV7AFPd2BwjgmZHz8igFAZ68mvnR).
 
 ### 1.3 Train model
 
