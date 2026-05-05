@@ -215,9 +215,9 @@ class MultiScaleTransformer(nn.Module):
             matrix_02[i * 49:(i + 1) * 49, i] = 0.5
         for i in range(4):
             if i != 3:
-                matrix_20[196 + i * 12:196 + (i + 1) * 13, i] = 0.5
+                matrix_02[196 + i * 12:196 + (i + 1) * 13, i] = 0.5
             else:
-                matrix_20[196 + i * 12:, i] = 0.5
+                matrix_02[196 + i * 12:, i] = 0.5
 
         identity_matrix[196:245, 0:196] = matrix_10
         identity_matrix[245:249, 0:245] = matrix_20
